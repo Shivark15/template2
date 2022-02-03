@@ -1,0 +1,86 @@
+#siteh {
+    background-color: rgb(233, 230, 230);
+    margin: 0;
+    padding: 20px;;
+  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(36, 35, 35);
+}
+li {
+  
+  float: left;
+  
+}
+
+
+li a {
+
+    
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  outline: white solid 1px;
+ 
+}
+
+li a:hover{
+      
+      background-color: #04AA6D;
+
+    } 
+
+.middle
+{
+
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 100%;
+}
+    #hpage
+{
+float:left;
+width: 68%;
+
+background-color: ghostwhite;
+margin-right: 10px;
+}    
+#aspage{
+float: right;
+width: 30% ;
+padding-top: 0px;
+margin-top: 0;
+background-color: rgb(233, 230, 230);
+padding: left 10px; ;
+
+}
+.footer
+{
+    background-color: grey;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    float: bottom ;
+   left: 0;
+   bottom: 0;
+   position: fixed;
+}
+
+
+#heading1
+{
+    color: rgb(33, 65, 87);
+}
+
+#heading3
+{
+    color: rgb(33, 65, 87);
+}
+
